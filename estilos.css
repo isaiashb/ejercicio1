@@ -1,0 +1,77 @@
+header {
+    /* propiedad: valor; */
+    background-color: #807e7e; 
+    margin: 15px;
+    padding: 30px;
+    border:0px solid blue;
+    text-align: center;
+}
+h1{ color: white;
+}
+nav{
+    background-color: rgb(233, 56, 86); 
+    margin: 15px;
+    padding: 10px;
+    border:0px solid blue;
+    text-align: center; 
+}
+
+.sidebar{
+    position: absolute;
+    width: 400px;
+    height: 75%;
+    background: green;
+    color: white;
+    text-align: center;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.main {
+    float: right;
+    width: 700px;
+    height: 100%;
+    background: greenyellow;
+    color: white;
+    text-align: center;
+    padding: 30px ;
+    margin: 5px;
+}
+#article1{
+    color:antiquewhite;
+    font-weight:normal;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    background: blue;
+  padding: 35px;
+  margin: 35px;
+}
+#article2{
+        color:antiquewhite;
+        font-weight:normal;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-transform: uppercase; 
+        background: blue;  
+        padding: 35px;
+        margin: 35px;
+}
+.footer {
+    background:orangered;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin:80px;
+    width: 1000px;
+    float: left;
+}
